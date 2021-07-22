@@ -264,7 +264,7 @@
   "play-route.error.title": "Something wrong happened.",
   "play-route.error.webRTC": "The browser you are currently using is not supported by Fari to use its online functionalities. Please choose a different browser like Google Chrome or Firefox.",
   "play-route.expand-all": "Expand All",
-  "play-route.gm-add-npc": "Add NPC Character",
+  "play-route.gm-add-gm-character": "Add GM Character",
   "play-route.gm-notes": "Notes",
   "play-route.group": "Group",
   "play-route.host-leaving-warning": "You are the host of this game. If you leave, everyone will be disconnected. \n\nDo you want to terminate the session ❓",

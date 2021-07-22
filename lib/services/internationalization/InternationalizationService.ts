@@ -14,6 +14,7 @@ export const PossibleLanguages = [
   "ru",
   "de",
   "it",
+  "pl",
   "dev",
 ] as const;
 
@@ -29,6 +30,7 @@ export const PossibleLanguagesNames: Record<IPossibleLanguages, string> = {
   "ru": "Русский",
   "de": "Deutsch",
   "it": "Italiano",
+  "pl": "Polski",
   "dev": "Development",
 };
 

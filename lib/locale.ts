@@ -264,7 +264,7 @@ export type ITranslationKeys =
   | "play-route.error.title"
   | "play-route.error.webRTC"
   | "play-route.expand-all"
-  | "play-route.gm-add-npc"
+  | "play-route.gm-add-gm-character"
   | "play-route.gm-notes"
   | "play-route.group"
   | "play-route.host-leaving-warning"

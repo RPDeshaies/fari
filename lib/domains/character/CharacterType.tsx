@@ -17,6 +17,10 @@ export enum CharacterTemplates {
   FateCondensedSpanish = "FateCondensedSpanish",
   FateCondensedBrazilianPortuguese = "FateCondensedBrazilianPortuguese",
   FateAcceleratedBrazilianPortuguese = "FateAcceleratedBrazilianPortuguese",
+  FateAcceleratedPolish = "FateAcceleratedPolish",
+  FateCondensedPolish = "FateCondensedPolish",
+  FateCorePolish = "FateCorePolish",
+  TroikaNuminousEdition = "TroikaNuminousEdition",
   MärchenkriegerLOS = "MärchenkriegerLOS",
   TachyonSquadronCharacter = "TachyonSquadronCharacter",
   TachyonSquadronShip = "TachyonSquadronShip",
@@ -68,6 +72,18 @@ export const CharacterTemplatesWithGroups: Array<ICharacterTemplateWithGroup> =
     {
       group: "Fate (Brazilian Portuguese)",
       template: CharacterTemplates.FateAcceleratedBrazilianPortuguese,
+    },
+    {
+      group: "Fate (Polish)",
+      template: CharacterTemplates.FateAcceleratedPolish,
+    },
+    {
+      group: "Fate (Polish)",
+      template: CharacterTemplates.FateCondensedPolish,
+    },
+    {
+      group: "Fate (Polish)",
+      template: CharacterTemplates.FateCorePolish,
     },
     {
       group: "Tachyon Squadron",
@@ -123,5 +139,9 @@ export const CharacterTemplatesWithGroups: Array<ICharacterTemplateWithGroup> =
     { group: "Grant Howitt", template: CharacterTemplates.TheWitchIsDead },
     { group: "Star Wars", template: CharacterTemplates.EdgeOfTheEmpire },
     { group: "Star Wars", template: CharacterTemplates.EdgeOfTheEmpire_FR },
+    {
+      group: "TROIKA! Numinous Edition",
+      template: CharacterTemplates.TroikaNuminousEdition,
+    },
     { group: "Blank", template: CharacterTemplates.Blank },
   ];

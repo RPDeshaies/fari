@@ -228,6 +228,24 @@ export const CharacterFactory = {
         );
         return this.makeFromJson(jsonData);
       },
+      [CharacterTemplates.FateAcceleratedPolish]: async () => {
+        const jsonData = await import(
+          "./character-templates/FateAcceleratedPolish.json"
+        );
+        return this.makeFromJson(jsonData);
+      },
+      [CharacterTemplates.FateCondensedPolish]: async () => {
+        const jsonData = await import(
+          "./character-templates/FateCondensedPolish.json"
+        );
+        return this.makeFromJson(jsonData);
+      },
+      [CharacterTemplates.FateCorePolish]: async () => {
+        const jsonData = await import(
+          "./character-templates/FateCorePolish.json"
+        );
+        return this.makeFromJson(jsonData);
+      },
       [CharacterTemplates.TachyonSquadronCharacter]: async () => {
         const jsonData = await import(
           "./character-templates/TachyonSquadronCharacter.json"
@@ -261,6 +279,12 @@ export const CharacterFactory = {
       [CharacterTemplates.DresdenFilesRPGVampire]: async () => {
         const jsonData = await import(
           "./character-templates/DresdenFilesRPGVampire.json"
+        );
+        return this.makeFromJson(jsonData);
+      },
+      [CharacterTemplates.TroikaNuminousEdition]: async () => {
+        const jsonData = await import(
+          "./character-templates/TroikaNuminousEdition.json"
         );
         return this.makeFromJson(jsonData);
       },

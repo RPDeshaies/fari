@@ -486,7 +486,7 @@ export const Session: React.FC<IProps> = (props) => {
                         </Button>
                       </Grid>
                       <Grid item>
-                        <Tooltip title={t("play-route.gm-add-npc")}>
+                        <Tooltip title={t("play-route.gm-add-gm-character")}>
                           <span>
                             <Button
                               data-cy="scene.add-player"
@@ -742,6 +742,33 @@ export const Session: React.FC<IProps> = (props) => {
                 </Box>
               );
             })}
+            {props.mode === SceneMode.PlayOffline &&
+              sessionManager.state.session.gm.npcs.map((npc, index) => {
+                const canControl = isGM;
+                return (
+                  <Box
+                    key={npc?.id || index}
+                    className={css({
+                      width: characterCardWidth,
+                      display: "inline-block",
+                      marginBottom: "1rem",
+                    })}
+                  >
+                    <CharacterCard
+                      key={npc?.id || index}
+                      readonly={!canControl}
+                      playerName={npc.playerName}
+                      characterSheet={npc.character}
+                      onCharacterDialogOpen={() => {
+                        setCharacterDialogPlayerId(npc.id);
+                      }}
+                      onRoll={(newDiceRollResult) => {
+                        handleSetPlayerRoll(npc.id, newDiceRollResult);
+                      }}
+                    />
+                  </Box>
+                );
+              })}
           </Box>
         </Box>
       </>

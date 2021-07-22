@@ -1,0 +1,463 @@
+{
+  "id": "6481d527-2669-4d5f-84b4-af6952efd8d2",
+  "name": "TROIKA! Numinous Edition",
+  "group": "TROIKA!",
+  "lastUpdated": 1623593435,
+  "wide": false,
+  "pages": [
+    {
+      "id": "3c9177c5-8b6c-4dc9-9b69-e1d16fd690c2",
+      "label": "Character",
+      "sections": {
+        "left": [
+          {
+            "id": "d67bb3f8-a513-4e03-b47f-3290c59a7419",
+            "label": "DESCRIPTION",
+            "blocks": [
+              {
+                "id": "57f00691-0a46-4277-8c1c-525212cff19a",
+                "label": "name",
+                "type": "Text",
+                "value": "",
+                "meta": {}
+              },
+              {
+                "id": "ce654681-055a-48ee-9e0b-684c55e91c36",
+                "label": "background",
+                "type": "Text",
+                "value": "",
+                "meta": {
+                  "helperText": "Baseline: Roll d66 on Background Table (view SRD from \"NOTES\"). <br>CUSTOM BACKGROUNDS: ~10 total points distributed in a range of 1–3 (3 = mastered trade)."
+                }
+              },
+              {
+                "id": "5748e134-618c-40e6-b0fb-6c87994482ca",
+                "label": "special",
+                "type": "Text",
+                "value": "",
+                "meta": {}
+              }
+            ]
+          }
+        ],
+        "right": [
+          {
+            "id": "f3b43277-dcc1-467d-8251-d5bb24cac10f",
+            "label": "Values",
+            "blocks": [
+              {
+                "id": "d5a5a769-b936-4cdb-a451-e92230a5181f",
+                "label": "stamina",
+                "type": "PointCounter",
+                "meta": {
+                  "max": "1",
+                  "isMainPointCounter": false,
+                  "helperText": "Current Damage / Max Stamina. Baseline: 2d6 + 12."
+                },
+                "value": "1"
+              },
+              {
+                "id": "30618c73-5719-4399-93d8-c6cb1b17fd47",
+                "label": "luck",
+                "type": "PointCounter",
+                "meta": {
+                  "max": "1",
+                  "isMainPointCounter": false,
+                  "helperText": "Spent Luck / Max Luck. Baseline: 1d6 + 6."
+                },
+                "value": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "60778a8c-c494-4689-beec-aaf4fae86c5b",
+      "sections": {
+        "left": [
+          {
+            "id": "3b0dcc41-2f08-40f1-9788-5a36a14c71f5",
+            "label": "SKILL",
+            "blocks": [
+              {
+                "id": "262c1535-a20b-4585-bd0f-a8e974dc6677",
+                "label": "Skill (2d6)",
+                "type": "Skill",
+                "value": "0",
+                "meta": {
+                  "commands": ["1d6", "1d6"],
+                  "helperText": "Baseline: 1d3 + 3.<br>"
+                }
+              }
+            ]
+          }
+        ],
+        "right": [
+          {
+            "id": "49b5c440-4b7b-497f-9e6a-9b5bd7db4338",
+            "label": "*note: Skill + Rank = total",
+            "blocks": []
+          },
+          {
+            "id": "4de62be9-f7a8-4cf8-abe2-72c26d4ade7b",
+            "label": "Ranks",
+            "blocks": [
+              {
+                "id": "ef4c7083-ddc9-48fd-b873-b0edf56a7d48",
+                "label": "[ADV. Skill NAME]",
+                "type": "Numeric",
+                "value": "",
+                "meta": { "helperText": "" }
+              },
+              {
+                "id": "5711a225-6df1-4d76-bbfc-2bc3bb2cda71",
+                "label": "[ADV. Skill NAME]",
+                "type": "Numeric",
+                "value": "",
+                "meta": { "helperText": "" }
+              },
+              {
+                "id": "05f8bb56-dffd-4683-92c0-da665e7aaf1e",
+                "label": "[ADV. Skill NAME]",
+                "type": "Numeric",
+                "value": "",
+                "meta": { "helperText": "" }
+              },
+              {
+                "id": "e5be95f0-1c92-4c02-b4a4-4aa1f8c27fcf",
+                "label": "[ADV. Skill NAME]",
+                "type": "Numeric",
+                "value": "",
+                "meta": { "helperText": "" }
+              },
+              {
+                "id": "5f7206f5-abab-46d0-be2f-8702f5723228",
+                "label": "[ADV. Skill NAME]",
+                "type": "Numeric",
+                "value": "",
+                "meta": { "helperText": "" }
+              },
+              {
+                "id": "64c847bb-9554-429c-902e-c3625678d523",
+                "label": "[ADV. Skill NAME]",
+                "type": "Numeric",
+                "value": "",
+                "meta": { "helperText": "" }
+              },
+              {
+                "id": "8dda354d-a2cb-404f-9a5e-84ae8bb9d8e4",
+                "label": "[ADV. Skill NAME]",
+                "type": "Numeric",
+                "value": "",
+                "meta": { "helperText": "" }
+              },
+              {
+                "id": "1a3d09b2-124d-45ad-b048-c5ad5ea58862",
+                "label": "[ADV. Skill NAME]",
+                "type": "Numeric",
+                "value": "",
+                "meta": { "helperText": "" }
+              },
+              {
+                "id": "556fd71d-961e-45e0-a455-00e7ade4bcd8",
+                "label": "[ADV. Skill NAME]",
+                "type": "Numeric",
+                "value": "",
+                "meta": { "helperText": "" }
+              },
+              {
+                "id": "39ce5ba7-a645-42a8-a845-7dd9f713a18b",
+                "label": "[ADV. Skill NAME]",
+                "type": "Numeric",
+                "value": "",
+                "meta": { "helperText": "" }
+              }
+            ]
+          }
+        ]
+      },
+      "label": "Advanced Skills &amp; Spells"
+    },
+    {
+      "id": "fd1cedd4-56ec-4bd0-94f7-9185e41b1321",
+      "sections": {
+        "left": [
+          {
+            "id": "627c2aa2-9ffe-4ac8-a5f1-7be18f083dc7",
+            "label": "wEapons<br>",
+            "blocks": [
+              {
+                "id": "1a24e353-2bc8-49d2-becd-0b26cd4ad310",
+                "label": "(insert weapon here)",
+                "type": "SlotTracker",
+                "meta": { "width": 1 },
+                "value": [
+                  { "label": "1", "checked": false },
+                  { "label": "2", "checked": false },
+                  { "label": "3", "checked": false },
+                  { "label": "4", "checked": false },
+                  { "label": "5", "checked": false },
+                  { "label": "6", "checked": false },
+                  { "label": "7+", "checked": false }
+                ]
+              },
+              {
+                "id": "5b0073dc-331c-4085-81f5-49010eeedb36",
+                "label": "(insert weapon here)",
+                "type": "SlotTracker",
+                "meta": { "width": 1 },
+                "value": [
+                  { "label": "1", "checked": false },
+                  { "label": "2", "checked": false },
+                  { "label": "3", "checked": false },
+                  { "label": "4", "checked": false },
+                  { "label": "5", "checked": false },
+                  { "label": "6", "checked": false },
+                  { "label": "7+", "checked": false }
+                ]
+              },
+              {
+                "id": "ae857e10-9aa8-4427-81ce-9ad80fd25c60",
+                "label": "(insert weapon here)",
+                "type": "SlotTracker",
+                "meta": { "width": 1 },
+                "value": [
+                  { "label": "1", "checked": false },
+                  { "label": "2", "checked": false },
+                  { "label": "3", "checked": false },
+                  { "label": "4", "checked": false },
+                  { "label": "5", "checked": false },
+                  { "label": "6", "checked": false },
+                  { "label": "7+", "checked": false }
+                ]
+              },
+              {
+                "id": "114313d0-a4bd-4c0a-a558-8e16e97c94cb",
+                "label": "(insert weapon here)",
+                "type": "SlotTracker",
+                "meta": { "width": 1 },
+                "value": [
+                  { "label": "1", "checked": false },
+                  { "label": "2", "checked": false },
+                  { "label": "3", "checked": false },
+                  { "label": "4", "checked": false },
+                  { "label": "5", "checked": false },
+                  { "label": "6", "checked": false },
+                  { "label": "7+", "checked": false }
+                ]
+              }
+            ]
+          }
+        ],
+        "right": [
+          {
+            "id": "570956fc-1005-438f-a122-31150e2c2b26",
+            "label": "Inventory<br>",
+            "blocks": [
+              {
+                "id": "5ea91e6f-e665-4871-9995-0b8478f46ef3",
+                "label": "1",
+                "type": "Text",
+                "value": "<br>",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "df43ff11-b701-4e0c-9b99-bba8a83d59a9",
+                "label": "2<br>",
+                "type": "Text",
+                "value": "",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "b40f8b87-cb15-4cb7-9aa0-88aa8502d682",
+                "label": "3<br>",
+                "type": "Text",
+                "value": "",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "5439226b-3859-4327-9d89-6840d9e64979",
+                "label": "4<br>",
+                "type": "Text",
+                "value": "",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "6c6c4250-118b-4e8c-b2a7-a0d888d9fabe",
+                "label": "5<br>",
+                "type": "Text",
+                "value": "",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "b416128f-1d45-48e1-bc07-0ca029317162",
+                "label": "6<br>",
+                "type": "Text",
+                "value": "",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "543bc8bb-b363-47bd-813f-cca73e996cb4",
+                "label": "7<br>",
+                "type": "Text",
+                "value": "",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "14c1d2c2-f226-42cd-ae04-de9a43253ef7",
+                "label": "8<br>",
+                "type": "Text",
+                "value": "",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "a9b8b75a-ede2-4e0e-b229-7fe06778471d",
+                "label": "9<br>",
+                "type": "Text",
+                "value": "",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "92ffe409-fd3b-4630-bca8-4871b11343ac",
+                "label": "10<br>",
+                "type": "Text",
+                "value": "",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "3dbc2250-410f-4aa1-8148-4b107d4b388e",
+                "label": "11<br>",
+                "type": "Text",
+                "value": "",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "5d08acc7-9211-4ee7-bee1-cba51e667b04",
+                "label": "12<br>",
+                "type": "Text",
+                "value": "",
+                "meta": { "width": 0.5 }
+              },
+              {
+                "id": "b61e090e-d0b7-44a6-a563-ac5475da0da4",
+                "label": "Wearing<br>",
+                "type": "Text",
+                "value": "",
+                "meta": {
+                  "helperText": "Baseline: a knife, a lantern &amp; flask of oil, a rucksack. Large items take up two slots."
+                }
+              },
+              {
+                "id": "1686174e-ea78-40ee-804e-bc01384e0d6a",
+                "label": "Monies",
+                "type": "Text",
+                "value": "",
+                "meta": { "helperText": "Baseline: 2d6 Silver Pence" }
+              },
+              {
+                "id": "f063b7fc-35bc-4a0c-8e29-ae35ca02052e",
+                "label": "Provisions",
+                "type": "PointCounter",
+                "meta": {
+                  "max": "14",
+                  "isMainPointCounter": false,
+                  "helperText": "Baseline: 6 provisions"
+                },
+                "value": "0"
+              }
+            ]
+          }
+        ]
+      },
+      "label": "Possessions"
+    },
+    {
+      "id": "8314a4d5-7ca0-4001-a3c5-f6b0cd005812",
+      "sections": {
+        "left": [
+          {
+            "id": "e61af12d-846b-4287-9133-86d4c81fa254",
+            "label": "Notes #1",
+            "blocks": [
+              {
+                "id": "2213b6a8-2284-48a3-a3d4-4723fd13e086",
+                "label": "",
+                "type": "Text",
+                "value": "",
+                "meta": {}
+              },
+              {
+                "id": "3174e930-35aa-478f-b9d7-ae1fa3b2c596",
+                "label": "",
+                "type": "Text",
+                "value": "",
+                "meta": {}
+              },
+              {
+                "id": "f8b93564-cb83-4355-aa0c-fef491a63f82",
+                "label": "",
+                "type": "Text",
+                "value": "",
+                "meta": {}
+              },
+              {
+                "id": "60d189d7-2568-45ac-8409-edda7944ffe8",
+                "label": "TROIKA! Numinous Edition",
+                "type": "Link",
+                "meta": {
+                  "hasDisplayName": true,
+                  "helperText": "Written by Daniel Sell<br>Produced by The Melsonian Arts Council<br><br>*This Fari character sheet was independently designed by Discord user PistolPants#8314 and is not affiliated with the Melsonian Arts Council.<br>"
+                },
+                "value": "https://www.troikarpg.com/"
+              }
+            ]
+          }
+        ],
+        "right": [
+          {
+            "id": "6374f55b-c7d0-4411-a193-ade771b3590b",
+            "label": " Notes #2",
+            "blocks": [
+              {
+                "id": "5cf4dc47-54bc-4bc6-856b-80eb7db9c8a6",
+                "label": "",
+                "type": "Text",
+                "value": "",
+                "meta": {}
+              },
+              {
+                "id": "9612af9b-1d67-48ad-abec-d4042b136b23",
+                "label": "",
+                "type": "Text",
+                "value": "",
+                "meta": {}
+              },
+              {
+                "id": "1571eaa9-e879-4ed5-864f-11c099b4f850",
+                "label": "",
+                "type": "Text",
+                "value": "",
+                "meta": {}
+              },
+              {
+                "id": "8b9af4c7-8190-41b5-80c8-29f600bed86f",
+                "label": "TROIKA! on itch.io",
+                "type": "Link",
+                "meta": {
+                  "hasDisplayName": true,
+                  "helperText": "Includes digital purchase and TROIKA! SRD under \"Download demo\" section."
+                },
+                "value": "https://melsonian-arts-council.itch.io/troika-numinous-edition"
+              }
+            ]
+          }
+        ]
+      },
+      "label": "Notes"
+    }
+  ],
+  "template": "Blank",
+  "version": 4,
+  "fariType": "character"
+}

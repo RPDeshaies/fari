@@ -49,7 +49,7 @@ jobs:
   deploy-preview:
     needs: [build]
     runs-on: ubuntu-latest
-    if: github.repository == 'fariapp/fari.app' && github.ref != 'refs/heads/master'
+    if: github.repository == 'fariapp/fari-app' && github.ref != 'refs/heads/master'
     environment:
       name: Preview
       url: https://${{github.run_id}}--fari.netlify.app
@@ -82,7 +82,7 @@ jobs:
   deploy-production:
     needs: [build]
     runs-on: ubuntu-latest
-    if: github.repository == 'fariapp/fari.app' && github.ref == 'refs/heads/master'
+    if: github.repository == 'fariapp/fari-app' && github.ref == 'refs/heads/master'
     environment:
       name: Production
       url: https://fari.app

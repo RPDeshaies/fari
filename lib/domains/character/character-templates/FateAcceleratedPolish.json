@@ -1,0 +1,210 @@
+{
+  "id": "6a5c196f-e4cc-4aae-8608-ea575847b070",
+  "name": "Fate Accelerated Polish",
+  "lastUpdated": 1625737551,
+  "wide": false,
+  "pages": [
+    {
+      "id": "ab18ce88-b4c1-490d-bca4-a042b4e987b2",
+      "label": "Tożsamość",
+      "sections": {
+        "left": [
+          {
+            "id": "6e1f9c6f-4f49-4b70-bcaf-cac02a16d1ac",
+            "blocks": [
+              {
+                "id": "f8add863-6340-4c74-ad29-8911126117de",
+                "type": "Text",
+                "meta": {},
+                "label": "Koncepcja ogólna",
+                "value": ""
+              },
+              {
+                "id": "049ba8d0-e80b-4445-8d46-2a657a11dc07",
+                "type": "Text",
+                "meta": {},
+                "label": "Problem",
+                "value": ""
+              },
+              {
+                "id": "baa70987-55b2-428e-858f-b6f02204a0c5",
+                "type": "Text",
+                "meta": {},
+                "label": "Aspekt #1",
+                "value": ""
+              },
+              {
+                "id": "151b64f2-ef7c-4d7e-bc7b-66cef5452a79",
+                "type": "Text",
+                "meta": {},
+                "label": "ASPEKT #2",
+                "value": ""
+              },
+              {
+                "id": "af14dc4d-df89-450b-980c-13b2d382779d",
+                "type": "Text",
+                "meta": {},
+                "label": "ASPEKT #3",
+                "value": ""
+              }
+            ],
+            "label": "Aspekty",
+            "visibleOnCard": true
+          },
+          {
+            "id": "656e39fe-0d76-4090-b200-921ac95547a9",
+            "blocks": [
+              {
+                "id": "6e53b8e2-be79-4e76-8d93-c2aba4c1c14e",
+                "type": "Text",
+                "meta": {},
+                "label": "sztuczka #1",
+                "value": ""
+              },
+              {
+                "id": "f243b423-5db4-4b96-bda7-6bcecafd5348",
+                "type": "Text",
+                "meta": {},
+                "label": "sztuczka #2",
+                "value": ""
+              },
+              {
+                "id": "5b2554ff-e79d-47e7-8dec-671b036246f2",
+                "type": "Text",
+                "meta": {},
+                "label": "sztuczka #3",
+                "value": ""
+              }
+            ],
+            "label": "Sztuczki i atuty"
+          },
+          {
+            "id": "bcc51d97-fd10-4ba9-ac63-3e6b0eea1141",
+            "blocks": [
+              {
+                "id": "671684ec-da2d-4c60-a47c-513ac78b8548",
+                "type": "Text",
+                "meta": {},
+                "label": "notatki",
+                "value": ""
+              }
+            ],
+            "label": "inne"
+          },
+          {
+            "id": "36b62ea5-d2e6-4121-b5f1-ea17fde8b408",
+            "blocks": [
+              {
+                "id": "4fb21916-e59e-43c8-ab9f-c8c40618c180",
+                "meta": { "isMainPointCounter": true, "max": "3" },
+                "type": "PointCounter",
+                "label": "punkty losu",
+                "value": "3"
+              }
+            ],
+            "label": "punkty losu"
+          }
+        ],
+        "right": [
+          {
+            "id": "dd5a52bf-02d6-487f-8db9-26b08eba88d2",
+            "blocks": [
+              {
+                "id": "89bb8c45-3516-49f0-81e9-ec5901e1bf94",
+                "label": "Presja",
+                "meta": {},
+                "type": "SlotTracker",
+                "value": [
+                  { "checked": false, "label": "1" },
+                  { "checked": false, "label": "2" },
+                  { "label": "3", "checked": false }
+                ]
+              }
+            ],
+            "label": "Presja"
+          },
+          {
+            "id": "dcaab5b6-5fb9-4dfa-9699-653250f0ff3a",
+            "blocks": [
+              {
+                "id": "b12f3192-5889-4e8e-9bba-515b7bf3a12e",
+                "type": "Text",
+                "meta": { "checked": false },
+                "label": "Łagodna",
+                "value": ""
+              },
+              {
+                "id": "0e0c5d56-3e4a-447d-95bb-d7618a3ca1b2",
+                "type": "Text",
+                "meta": { "checked": false },
+                "label": "Umiarkowana",
+                "value": ""
+              },
+              {
+                "id": "dfc9f7eb-6dfa-4284-8e4b-a2c3802f7932",
+                "type": "Text",
+                "meta": { "checked": false },
+                "label": "Poważna",
+                "value": ""
+              }
+            ],
+            "label": "KOnsekwecje"
+          },
+          {
+            "id": "066b68f8-58f3-49fc-a73a-465e028e7095",
+            "blocks": [
+              {
+                "id": "a8f4c6e4-4a40-49c5-8379-888062a998cc",
+                "label": "Podstępna",
+                "type": "Skill",
+                "value": "0",
+                "meta": {}
+              },
+              {
+                "id": "322ea401-8677-491b-992f-13a80acd1a2c",
+                "label": "pomysłowa",
+                "type": "Skill",
+                "value": "0",
+                "meta": {}
+              },
+              {
+                "id": "4a5d43f6-f152-482b-a50c-f1801a58f90b",
+                "label": "Siłowa",
+                "type": "Skill",
+                "value": "0",
+                "meta": {}
+              },
+              {
+                "id": "a05b993d-da4f-437e-97e9-a618f0501e2c",
+                "label": "szybka",
+                "type": "Skill",
+                "value": "0",
+                "meta": {}
+              },
+              {
+                "id": "e90617e7-095a-4fec-9c44-0c261502e239",
+                "label": "Uważna",
+                "type": "Skill",
+                "value": "0",
+                "meta": {}
+              },
+              {
+                "id": "0a85614c-3114-45bd-97de-60ffcd6d0cde",
+                "label": "Widowiskowa",
+                "type": "Skill",
+                "value": "0",
+                "meta": {}
+              }
+            ],
+            "label": "Postawy",
+            "visibleOnCard": true
+          }
+        ]
+      }
+    }
+  ],
+  "template": "FateCore",
+  "version": 4,
+  "group": "Polish Translation",
+  "fariType": "character"
+}

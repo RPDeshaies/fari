@@ -7,7 +7,7 @@ import {
   BlockType,
   IBlock,
   ICharacter,
-  IPointCounterBlock
+  IPointCounterBlock,
 } from "../../domains/character/types";
 import { Confetti } from "../../domains/confetti/Confetti";
 import { getUnix } from "../../domains/dayjs/getDayJS";
@@ -221,7 +221,7 @@ export function useSession(props: IProps) {
         }
         draft.gm.npcs.push({
           id: id,
-          playerName: `NPC #${draft.gm.npcs.length + 1}`,
+          playerName: `Character #${draft.gm.npcs.length + 1}`,
           character: undefined,
           rolls: [],
           playedDuringTurn: false,
@@ -381,7 +381,7 @@ export function useSession(props: IProps) {
   return {
     state: { session },
     computed: {
-      npcsWithCharacterSheets:npcsWithCharacterSheets,
+      npcsWithCharacterSheets: npcsWithCharacterSheets,
       playersWithCharacterSheets: sortedPlayersWithCharacterSheets,
       hasPlayersWithCharacterSheets,
       userCharacterSheet,

@@ -453,7 +453,7 @@ describe("useSession", () => {
         playedDuringTurn: false,
         isGM: false,
 
-        playerName: "NPC #1",
+        playerName: "Character #1",
         rolls: [],
       },
     ]);
